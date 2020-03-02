@@ -1,0 +1,1 @@
+Invoke-Gherkins -Script "./Tests/" -OutputFile "./Test-Pester.XML" -OutputFormat 'NUnitXML' -CodeCoverage "./LSECosmos/*.ps1"

@@ -1,7 +1,6 @@
 #Scenario: Validate if require server and database are present
 When "I will search for ResourceGroup in Subscription 1"{
 
-}
 Then "I will find that ResourceGroup has dnb-server"{ 
     $SQLsvr.ServerName | should contain 'dnb-server'
     } 
